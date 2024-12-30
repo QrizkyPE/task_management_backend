@@ -2,12 +2,12 @@ require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
-const authRoutes = require('./routes/auth.routes');
-const taskRoutes = require('./routes/task.routes');
-const projectRoutes = require('./routes/project.routes');
-const categoryRoutes = require('./routes/category.routes');
-const labelRoutes = require('./routes/label.routes');
-const errorHandler = require('./middleware/error-handler');
+const authRoutes = require('../routes/auth.routes');
+const taskRoutes = require('../routes/task.routes');
+const projectRoutes = require('../routes/project.routes');
+const categoryRoutes = require('../routes/category.routes');
+const labelRoutes = require('../routes/label.routes');
+const errorHandler = require('../middleware/error-handler');
 
 const app = express();
 
